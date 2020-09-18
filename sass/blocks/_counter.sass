@@ -1,0 +1,130 @@
+.section-counter
+  background-image: url(../img/counter/background.png)
+  background-repeat: no-repeat
+  background-size: cover
+  padding-top: 20px
+  padding-bottom: 350px
+  width: 90%
+.counter
+  &-time
+    display: flex
+    justify-content: center
+    &__number
+      font-family: "Formular-Black",sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 130px
+      color: #FFFF
+    &__title
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 36px
+      color: #FFFFFF
+    &__part
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-right: 50px
+    &__right
+      margin-right: 0px
+  &-title
+    font-family: "Formular-Black",sans-serif
+    font-style: normal
+    font-weight: 900
+    font-size: 36px    
+    line-height: 54px
+    text-align: center
+    color: #FFFFFF
+    &__amimara
+      color: #FF4D00
+      font-weight: bold
+  &-content
+    margin-top: 180px
+  &-mark
+    display: flex
+    align-items: center
+    &__text
+      font-family: "Formular", sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 12px
+      letter-spacing: 0.05em
+      text-transform: uppercase
+      color: #FFFFFF
+      margin-left: 6px
+  &-right
+    display: flex
+    align-items: center
+    &__right
+      display: flex
+      align-items: center
+    &__menu
+      cursor: pointer
+    &__part
+      margin-right: 20px
+      &:last-child
+        margin-right: 0px
+  &-top
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-next
+    display: flex
+    align-items: flex-end
+    &__text
+      font-family: "Formular", sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 15px
+      color: #FFFFFF
+      margin-left: 10px
+@media (max-width: 900px)
+  .section-menu
+    width: 100%
+    height: 100%
+    padding-bottom: 20px
+  .section-counter
+    width: 100%
+  .main
+    flex-direction: column-reverse
+  .counter
+    &-title
+      font-size: 30px
+
+@media (max-width: 560px)
+  .section-menu
+    display: none
+  .counter
+    &-title
+      font-size: 30px
+    &-time
+      flex-direction: column
+      &__number
+        font-size: 80px
+      &__title
+        font-size: 30px
+      &__part
+        margin-right: 0px
+    &-next
+      margin-top: 15px
+      align-self: flex-start
+    &-top
+      flex-direction: column-reverse
+      margin: auto
+      max-width: 300px
+    &-right
+      flex-wrap: wrap
+      justify-content: space-between
+      flex-direction: column-reverse
+      &__part
+        margin-top: 0px
+        margin-right: 75px
+      &__level
+        margin-top: 15px
+        margin-right: 0px
+        align-self: center
+@media (max-width: 450px)
+  .counter
+    &-title
+      font-size: 24px

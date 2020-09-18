@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url(https://allfont.ru/allfont.css?fonts=a_avanteotl-heavy);
+@font-face {
+    font-family: 'Formular';
+    src: local('Formular'), local('Formular'),
+        url('../fonts/Formular.woff2') format('woff2'),
+        url('../fonts/Formular.woff') format('woff'),
+        url('../fonts/Formular.ttf') format('truetype');
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Formular-Black';
+    src: local('Formular'), local('Formular'),
+        url('../fonts/formular-black.woff2') format('woff2'),
+        url('../fonts/formular-black.woff') format('woff'),
+        url('../fonts/Formular-Black.ttf') format('truetype');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Formular-Medium';
+    src: local('Formular'), local('Formular'),
+        url('../fonts/formular-medium.woff') format('woff'),
+        url('../fonts/Formular-Medium.ttf') format('truetype');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Formular-Bold';
+    src: local('Formular'), local('Formular'),
+        url('../fonts/formular-bold.woff2') format('woff2'),
+        url('../fonts/formular-bold.woff') format('woff'),
+        url('../fonts/Formular-Bold.ttf') format('truetype');
+    font-style: normal;
+  }
+
+
+  .dropdown-menu { padding-top: 0; padding-bottom: 0; overflow: hidden; line-height: 100%; }
+  /*@media (max-width: 575px) { .dropdown-menu { width: 100%; } }*/
+  .dropdown-divider { margin: 0; }
+  .dropdown-item { padding: 0 1rem; line-height: 3rem; vertical-align: middle; text-decoration: none;}
+  .dropdown-item.active, .dropdown-item:active { background-color: #ff4d00 !important; color: #fff !important; }
+  a.dropdown-item.active:before { display: none; }
+  .dropdown-item > i { position: absolute; right: 1rem; width: 1rem; font-size: 0.9rem; line-height: inherit; text-align: center; opacity: 0.4; }
+  .dropdown-item:hover > i { opacity: 1; }
+  .dropdown-menu .text { line-height: 1.4; /*min-width: 200px;*/ padding: 1rem !important; }
+  .dropdown-menu.theme-dark { background-color: rgba(34,34,34,0.9); color: #fff; border: 0;     position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 50px;
+    right: 50px; }
+  .dropdown-menu.theme-dark .dropdown-divider { border-color: rgba(255,255,255,0.2); }
+  .dropdown-menu.theme-dark .dropdown-item { color: #ffffff !important;  }
+  .dropdown-menu.theme-dark .dropdown-item:focus, .dropdown-menu.theme-dark .dropdown-item:hover { background-color: rgba(255,255,255,0.2); }
+  h4 .dropdown { float: left; }
+  h4 .dropdown-toggle { display: inline; }
+  h4 .dropdown-toggle::after { vertical-align: .15em; }
+  h4 .dropdown-menu { margin-top: 0.5rem; }
+  .dropdown.menu-instrument { position: absolute; right: 0; z-index: 2; }
+  .dropdown.menu-user { position: absolute; right: 0; z-index: 2; }
+ 
+  
+  
+      #menu-mobile {
+        display: flex;
+        }
+     
